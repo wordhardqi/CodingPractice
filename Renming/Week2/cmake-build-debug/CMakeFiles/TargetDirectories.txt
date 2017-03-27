@@ -1,0 +1,13 @@
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/Week2.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/code8_naive.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/code1.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/code3.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/code6_advanced.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/code6_naive.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/code4.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/code7_naive.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/code5.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/code2.dir
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/CMakeFiles/playground.dir

@@ -38,7 +38,8 @@ int main() {
             case 'a':
                 cin>>numStr;
                 second->push_back(std::stoi(numStr));
-                while (first->size()+1<second->size()){
+
+                if (first->size()+2==second->size()){
                     int val = second->front();
                     first->push_back(val);
                     second->pop_front();
@@ -46,7 +47,7 @@ int main() {
                 break;
             case 't':
                 second->pop_back();
-                while(first->size()>second->size()){
+                if(first->size()>second->size()){
                     int val = first->back();
                     first->pop_back();
                     second->push_front(val);
@@ -54,11 +55,12 @@ int main() {
                 break;
             case 'm':
                 first.swap(second);
-                while(first->size()>second->size()){
+                if(first->size()>second->size()){
                     int val = first->back();
                     first->pop_back();
                     second->push_front(val);
                 }
+                break;
 
         }
     }

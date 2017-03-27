@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code8_naive.cpp
+fstream
+-
+iostream
+-
+fstream
+-
+iostream
+-
+string
+-
+stack
+-
+vector
+-
+algorithm
+-
+numeric
+-
+memory
+-
+queue
+-
+sstream
+-
+functional
+-
+deque
+-
+

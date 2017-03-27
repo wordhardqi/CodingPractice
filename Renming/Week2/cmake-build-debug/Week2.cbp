@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Week2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Week2">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Week2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Week2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Week2/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Week2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Week2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code8_naive">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code8_naive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code8_naive"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code8_naive/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code8_naive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code8_naive/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code1">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code1/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code3">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code3/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code6_advanced">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code6_advanced" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code6_advanced"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code6_advanced/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code6_advanced" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code6_advanced/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code6_naive">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code6_naive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code6_naive"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code6_naive/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code6_naive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code6_naive/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code4">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code4/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code7_naive">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code7_naive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code7_naive"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code7_naive/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code7_naive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code7_naive/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code5">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code5/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code2">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code2/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/code2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playground">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 playground"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playground/fast">
+				<Option output="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 playground/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code1.cpp">
+			<Option target="code1"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code2.cpp">
+			<Option target="code2"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code3.cpp">
+			<Option target="code3"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code4.cpp">
+			<Option target="code4"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code5.cpp">
+			<Option target="code5"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code6_advanced.cpp">
+			<Option target="code6_advanced"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code6_naive.cpp">
+			<Option target="code6_naive"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code7_naive.cpp">
+			<Option target="code7_naive"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code8_naive.cpp">
+			<Option target="code8_naive"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/main.cpp">
+			<Option target="Week2"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/playground.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

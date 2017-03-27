@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.6)
+project(Week2)
+
+set(CMAKE_CXX_STANDARD 11)
+
+set(SOURCE_FILES main.cpp)
+add_executable(Week2 ${SOURCE_FILES})
+add_executable(code1 code1.cpp)
+add_executable(code2 code2.cpp)
+add_executable(code3 code3.cpp)
+add_executable(code4 code4.cpp)
+add_executable(playground playground.cpp)
+add_executable(code5 code5.cpp)
+add_executable(code6_naive code6_naive.cpp)
+add_executable(code6_advanced code6_advanced.cpp)
+add_executable(code7_naive code7_naive.cpp)
+add_executable(code8_naive code8_naive.cpp)

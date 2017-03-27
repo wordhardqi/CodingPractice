@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Renming/PycharmProjects/CodingPractice/Renming/Week2/code1.cpp
+fstream
+-
+fstream
+-
+iostream
+-
+string
+-
+stack
+-
+
