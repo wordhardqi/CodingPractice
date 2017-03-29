@@ -5,11 +5,13 @@
 #include <fstream>
 #include <iostream>
 std::ifstream cin("input.txt");
+FILE* file = fopen (file_name, "r");
 std::ofstream cout("output.txt");
 #else
 #include <fstream>
 #include <iostream>
 std::ifstream cin("../input.txt");
+
 std::ofstream cout("../output.txt");
 #endif
 #include <string>
@@ -24,23 +26,25 @@ class SnowMan{
 public:
     wtf amount;
     wtf top;
-    std::shared_ptr<SnowMan> parent;
-    inline void executeCommand(int a, wtf b,std::vector<std::shared_ptr<SnowMan>>& peers){
+    SnowMan* parent;
+    SnowMan() :amount(0),top(0),parent(nullptr) {}
+
+    inline void executeCommand(wtf a, wtf b, std::vector<SnowMan>& peers){
         if(b != 0){
             this->top = b;
-            this->parent = peers[a];
-            this->amount = this->parent->amount + b;
+            this->parent = &peers[a];
+            this->amount = peers[a].amount + b;
 
         }else{
-            this->amount = peers[a]->amount - peers[a]->top;
-            std::shared_ptr<SnowMan> curParent = peers[a];
+            this->amount = peers[a].amount - peers[a].top;
+            SnowMan* curParent = &peers[a];
             while(curParent->amount>this->amount){
                 curParent = curParent->parent;
             }
             this->top = curParent->top;
             this->parent = curParent->parent;
         }
-//        std::cout<<"parent of "<<peers.size()+1<<" is "<<this->parent<<std::endl;
+//        std::cout<<"parent of "<<peers.size()<<" is "<<this->parent<<std::endl;
 
     }
 };
@@ -48,26 +52,16 @@ int main() {
     std::string str;
     wtf numberOfAction;
     cin>>numberOfAction;
-    int a,b;
-    std::vector<std::shared_ptr<SnowMan>> peers(numberOfAction+1);
-    for (int i=0;i<(numberOfAction+1);i++){
-        std::shared_ptr<SnowMan> p(new SnowMan);
-        peers[i] = p;
-    }
-    std::shared_ptr<SnowMan> emptySnowMan=peers[0];
-    emptySnowMan->amount=0;
-    emptySnowMan->parent=0;
-    emptySnowMan->top =0;
-    peers.push_back(emptySnowMan);
-    int i=0;
+    wtf a,b;
+    std::vector<SnowMan> peers(numberOfAction+1);
+    wtf i=0;
     while (cin>>a &&cin>>b){
         i++;
-//        std::cout<<"a,b"<<a<<" "<<b<<std::endl;
-        peers[i]->executeCommand(a,b,peers);
+        peers[i].executeCommand(a,b,peers);
     }
     wtf total =0;
     for(auto &i : peers){
-        total +=i->amount;
+        total +=i.amount;
     }
     cout<<total<<std::endl;
 
