@@ -57,6 +57,7 @@ int main() {
     wtf i=0;
     while (cin>>a &&cin>>b){
         i++;
+//       std::cout<<"a,b"<<a<<" "<<b<<std::endl;
         peers[i].executeCommand(a,b,peers);
     }
     wtf total =0;
